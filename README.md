@@ -9,12 +9,13 @@
 <h1 align="center">PRIVATGRAM®</h1>
 
 <p align="center">
-
-## Secure Enterprise Messaging Platform
-
+<b>Secure Enterprise Messaging Platform</b><br>
 Designed for Government, Banking and Critical Information Infrastructure
+</p>
 
-<a href="https://privatgram.com">Website</a> •
+<p align="center">
+
+<a href="https://privatgram.com">🌐 Website</a> •
 <a href="https://privatgram.com/privacy.html">Privacy Policy</a>
 
 </p>
@@ -27,37 +28,62 @@ Welcome to the official documentation repository of **PRIVATGRAM®**.
 
 PRIVATGRAM is a secure enterprise messaging platform designed for organizations requiring confidential communications, centralized administration and complete control over their messaging infrastructure.
 
-Unlike consumer messaging applications, PRIVATGRAM is built specifically for enterprise, government and regulated environments where information security, compliance and administrative control are essential.
+Unlike consumer messaging applications, PRIVATGRAM is built specifically for enterprise, government and regulated environments where information security, administrative control and private deployment are essential.
 
 This repository contains public documentation only.
 
-The source code of PRIVATGRAM is proprietary.
+The software source code of PRIVATGRAM remains proprietary.
 
 ---
 
-# Product Overview
+# Why PRIVATGRAM?
 
-PRIVATGRAM provides organizations with:
+Modern organizations increasingly require secure communication systems that provide not only strong cryptography but also centralized administrative control.
 
-- Secure Enterprise Messaging
-- Centralized Administration
-- Organization Management
-- Role-Based Access Control (RBAC)
-- Device Registration
-- Session Isolation
-- Secure File Transfer
-- Multi-Platform Clients
-- Audit Logging
-- Private Infrastructure Deployment
+PRIVATGRAM was designed to address these requirements by combining:
 
-The platform is designed for:
+- modern end-to-end encryption
+- centralized enterprise administration
+- private infrastructure deployment
+- cross-platform clients
+- role-based access control
+- secure file exchange
+- audit capabilities
+
+---
+
+# Enterprise Use Cases
+
+PRIVATGRAM is designed for:
 
 - Government Institutions
 - Banks
 - Financial Organizations
 - Critical Information Infrastructure
+- Healthcare
+- Energy
+- Telecommunications
 - Large Enterprises
 - Private Corporate Networks
+
+---
+
+# Key Features
+
+| Feature | Status |
+|----------|:------:|
+| Secure Messaging | ✅ |
+| End-to-End Encryption | ✅ |
+| Secure File Transfer | ✅ |
+| Enterprise Administration | ✅ |
+| Organization Management | ✅ |
+| RBAC | ✅ |
+| Device Management | ✅ |
+| Session Isolation | ✅ |
+| Audit Logging | ✅ |
+| REST API | ✅ |
+| Private Deployment | ✅ |
+| Cross-Platform Support | 🚧 |
 
 ---
 
@@ -67,7 +93,6 @@ PRIVATGRAM implements modern cryptographic standards and enterprise security pri
 
 Core technologies include:
 
-- End-to-End Encryption
 - X3DH Key Agreement
 - Double Ratchet
 - Curve25519
@@ -77,10 +102,10 @@ Core technologies include:
 - Certificate Pinning
 - Secure Local Storage
 
-Enterprise capabilities include:
+Enterprise security capabilities include:
 
 - Role-Based Access Control
-- Device Management
+- Device Registration
 - Session Management
 - Organization Administration
 - Audit Logging
@@ -94,7 +119,7 @@ Enterprise capabilities include:
 <img src="assets/architecture.png" width="100%">
 </p>
 
-High-level architecture consists of:
+High-level architecture includes:
 
 - Desktop Client
 - Android Client
@@ -102,8 +127,7 @@ High-level architecture consists of:
 - REST API
 - WebSocket Gateway
 - Messaging Services
-- Organization Services
-- Device Management
+- Organization Management
 - Notification Services
 - PostgreSQL Database
 - Secure Object Storage
@@ -112,7 +136,7 @@ High-level architecture consists of:
 
 # User Interface
 
-## Mobile
+## Mobile Application
 
 <p align="center">
 <img src="assets/mobile.png" width="100%">
@@ -120,7 +144,7 @@ High-level architecture consists of:
 
 ---
 
-## Desktop
+## Desktop Application
 
 <p align="center">
 <img src="assets/desktop.png" width="100%">
@@ -131,7 +155,7 @@ High-level architecture consists of:
 # Supported Platforms
 
 | Platform | Status |
-|----------|--------|
+|----------|:------:|
 | Windows | ✅ |
 | Linux | ✅ |
 | macOS | ✅ |
@@ -143,28 +167,28 @@ High-level architecture consists of:
 
 # Technology Stack
 
-## Backend
+### Backend
 
 - Python
 - PostgreSQL
 - REST API
 - WebSocket
 
-## Desktop
+### Desktop
 
 - PyQt
 
-## Android
+### Android
 
 - Kotlin
 - Jetpack Compose
 
-## iOS
+### iOS
 
 - Swift
 - SwiftUI
 
-## Security
+### Security
 
 - X3DH
 - Double Ratchet
@@ -175,34 +199,21 @@ High-level architecture consists of:
 
 ---
 
-# Enterprise Capabilities
+# Deployment Models
 
-PRIVATGRAM enables organizations to centrally manage:
-
-- Organizations
-- Departments
-- Users
-- Roles
-- Permissions
-- Devices
-- Active Sessions
-- Security Policies
-- Notifications
-- Audit Logs
-
-Deployment options:
+PRIVATGRAM supports multiple deployment scenarios:
 
 - On-Premises
 - Private Cloud
 - Dedicated Enterprise Infrastructure
 
+Designed for organizations requiring high levels of security, administrative control and regulatory compliance.
+
 ---
 
 # Documentation
 
-This repository contains official technical documentation.
-
-Available documents:
+The official documentation includes:
 
 - Product Overview
 - System Architecture
@@ -210,7 +221,7 @@ Available documents:
 - Deployment Guide
 - Administrator Guide
 - User Guide
-- API Documentation
+- REST API
 - FAQ
 - Roadmap
 - Whitepaper
@@ -222,20 +233,20 @@ Available documents:
 Current project stage:
 
 - ✅ Enterprise MVP
-- ✅ Desktop Application
+- ✅ Desktop Platform
 - ✅ Server Platform
-- 🚧 Android Application
-- 🚧 iOS Application
-- 🚧 Enterprise Pilot Preparation
+- 🚧 Android Client
+- 🚧 iOS Client
+- 🚧 Corporate Pilot Preparation
 
 ---
 
-# Roadmap
+# Product Roadmap
 
 ## Version 1.x
 
 - Secure Messaging
-- File Sharing
+- Secure File Transfer
 - Enterprise Administration
 - Mobile Applications
 
@@ -261,7 +272,7 @@ PRIVATGRAM® is an original software project.
 
 The project includes proprietary software components, technical documentation and registered intellectual property.
 
-This repository contains documentation only.
+This repository contains public documentation only.
 
 No proprietary software source code is published.
 
@@ -307,7 +318,7 @@ All Rights Reserved.
 
 The PRIVATGRAM software is proprietary.
 
-The documentation published in this repository is provided for informational purposes only.
+Documentation published in this repository is provided for informational purposes only.
 
 No permission is granted to copy, modify, redistribute or commercially use proprietary software components without prior written permission.
 
